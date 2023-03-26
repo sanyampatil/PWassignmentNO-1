@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(pexels-maxyne-barcel-10402282\ 1.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+/* /////navbar///// */
+
+.navbar{
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu-bar ul{
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+    gap:123px;
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #ffc233;
+}
+.logo img{
+    margin-top: 23px;
+    margin-left: 22px;
+
+}
+.menu-bar li a:hover{
+    text-decoration: underline;
+    
+}
+
+.btn-1 input {
+   background-color: #ff505f;
+   color: #ffffff;
+   width: 153px;
+    height: 52px;
+   font-size: 22px;
+   font-weight: 500;
+ }
+.btn-1 button:hover{
+    border: 1px solid black;
+    color:black;  
+     background-color:rgba(255, 140, 0, 0.501) ;
+    }
+    /* /////////end navbar////// */   
+
+
+/* code for main  */
+main{
+    width: 100%;
+    height: 55vh;
+    /* border: 2px solid white; */
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+    margin-top: 5%;
+}
+.heading{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heading h1{
+    color : #ffc233;
+    text-align: center;
+    font-size: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
+    font-weight: 900;
+}
+.heading h1:hover{
+
+}
+    
+.btn-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 10%;
+    /* border: 2px solid white; */
+    
+}
+.btn-2 button{
+    background-color: #ff505f;
+    padding:18px 40px 18px 40px;
+    font-weight:700;
+    font-size: 17px;
+    color: #ffffff;
+
+}
+
+.btn-2 button:hover{
+    border: 1px solid black;
+    color:black;
+    background-color:rgba(255, 140, 0, 0.501) ;
+}
+/* footer logo */
+.footer-logo
+{
+    float: right;
+    margin-top: -74px;
+}
